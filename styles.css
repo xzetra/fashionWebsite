@@ -1,0 +1,29 @@
+/* Adding color to first section */
+/* General styling to our main section */
+h1{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font:30px Verdana;
+}
+.header{
+    border:2px solid;
+    width:500px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.section{
+    width:800px;
+    height:400px;
+    background-color:rgb(255, 255, 255);
+    border:4px solid;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 10px 10px 5px black;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+body{
+    background-color:white;
+    background-image:url("https://wallpaperaccess.com/full/3145502.jpg")
+}
