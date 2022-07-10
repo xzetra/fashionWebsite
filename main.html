@@ -4,14 +4,81 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content=""width=device-width,initial-slace=1/>
         <link rel="stylesheet" href="styles.css"/>
-        <title>Everything Tech</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <title>Everything Fashion</title>
     </head>
     <body>
-        <div class="header"><h1>CURRENT TECHNOLOGIES</h1></div>
-        <br><br>
-            <div class="section" id="one">
-                    
+        <nav class="block">
+            <ul>
+                <li>BALENCIAGA</li>
+                
+                <li>GIVENCHY</li>
+            </ul>
+        </nav>
+        <br>
+        <div class="container">
+        <br>
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/6224f85e562415ab5a00cf88/master/w_2560%2Cc_limit/00001-balenciaga-fall-2022-ready-to-wear-paris-credit-brand.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/6224f85ed608f0964f4fd386/master/w_2560%2Cc_limit/00003-balenciaga-fall-2022-ready-to-wear-paris-credit-brand.jpg"></div>
+            <div class="swiper-slide"><h1></h1></div>
+            <div class="swiper-slide"><h1></h1></div>
+            <div class="swiper-slide"><h1></h1></div>
             </div>
+  
+            <div class="swiper-pagination"></div>
+          
         
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+          </div>
+          <div class="container">
+            <br>
+            <div class="swiper">
+    
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                <div class="swiper-slide"><img src="https://assets.vogue.com/photos/6224f85e562415ab5a00cf88/master/w_2560%2Cc_limit/00001-balenciaga-fall-2022-ready-to-wear-paris-credit-brand.jpg"></div>
+                <div class="swiper-slide"><img src="https://assets.vogue.com/photos/6224f85ed608f0964f4fd386/master/w_2560%2Cc_limit/00003-balenciaga-fall-2022-ready-to-wear-paris-credit-brand.jpg"></div>
+                <div class="swiper-slide"><h1></h1></div>
+                <div class="swiper-slide"><h1></h1></div>
+                <div class="swiper-slide"><h1></h1></div>
+                </div>
+      
+                <div class="swiper-pagination"></div>
+              
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+              </div>
+          
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {         
+  loop: true,
+
+  autoplay:{
+    delay:3000,
+    disableOnInteraction:false,
+ },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+    allowTouchMove:true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script> 
     </body>
 </html>
