@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content=""width=device-width,initial-slace=1/>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <title>Everything Fashion</title>
+    </head>
+    <body>
+        <nav class="block">
+            <ul class="pages">
+                <a href="index.html"><li class="home">HOME</li></a>
+              <li>  |</li>
+              <a href="balen.html"><li>BALENCIAGA</li></a>
+              <li>  |</li>
+              <a href="given.html"><li>GIVENCHY</li></a>
+              <li>  |</li>
+            </ul>
+        </nav>
+        <h1>GIVENCHY</h1>
+        <figcaption>FALL 2012</figcaption>
+        <div class="container">
+        <br>
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+              <!-- Images-->
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172a44/master/w_1600,c_limit/00140fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172a49/master/w_1600,c_limit/00190fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183220/master/w_1600,c_limit/00010fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b1f/master/w_1600,c_limit/00330fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b21/master/w_1600,c_limit/00350fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183221/master/w_1600,c_limit/00020fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b25/master/w_1600,c_limit/00390fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b28/master/w_1600,c_limit/00420fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b2a/master/w_1600,c_limit/00470fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183223/master/w_1600,c_limit/00040fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183224/master/w_1600,c_limit/00050fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be218322a/master/w_1600,c_limit/00110fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b2b/master/w_1600,c_limit/00440fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b2c/master/w_1600,c_limit/00450fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183238/master/w_1600,c_limit/00250fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be218323a/master/w_1600,c_limit/00270fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be218323e/master/w_1600,c_limit/00310fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650d908298d8be2172b2d/master/w_1600,c_limit/00460fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183244/master/w_1600,c_limit/00370fullscreen.jpg"></div>
+            <div class="swiper-slide"><img src="https://assets.vogue.com/photos/55c650e908298d8be2183247/master/w_1600,c_limit/00400fullscreen.jpg"></div>
+            </div>
+  
+            <div class="swiper-pagination"></div>
+          
+        
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+          </div>
+          
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {         
+  loop: true,
+
+  autoplay:{
+    delay:3000,
+    disableOnInteraction:false,
+ },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+    allowTouchMove:true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+            </script> 
+    </body>
+</html>
