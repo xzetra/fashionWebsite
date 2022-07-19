@@ -1,5 +1,6 @@
-/* Adding color to first section */
-/* General styling to our main section */
+body{
+    background:black;
+}
 h1{
     color:white;
     text-align:center;
@@ -11,7 +12,7 @@ h2{
     text-align:center;
 }
 figcaption{
-    font:15px Arial;
+    font:15px Monospace;
     color:white;
     background-color:black;
     text-align:center;
@@ -35,8 +36,23 @@ li{
     color:white;
     font:20px Monospace;
   }
-  .home{
-    border:5px double white;
+#about{
+    font:40px Monospace;
+}
+#aboutText{
+    font:20px Monospace;
+    color:white; 
+    text-align: center;
+    word-spacing:-3px;
+}
+#aboutDiv{
+    border: 2px solid white;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+}
+.hList{
+    display:block;
   }
 .pages{
     border:1px double white;
@@ -51,18 +67,15 @@ li{
     margin-right:auto;
     box-shadow: 10px 5px 5px black;
 }
-.block ul {
+.navbar ul {
     list-style-type: none;
     margin: -10px;
-    padding: 20px;
+    padding: 15px;
     background:black;
     position:sticky;
   }
 ::-webkit-scrollbar{
     display:none;
-}
-body{
-    background:black;
 }
 .swiper .swiper-button-prev
 , .swiper .swiper-button-next{
@@ -71,10 +84,14 @@ body{
 .swiper .swiper-pagination-bullet-active{
     background:rgb(0, 0, 0);
 }
+a{
+  color: #ffffff;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
 a:visited{
     color:inherit;
 }
 a:hover{
-    color:white;
-    border:2px solid inset white;
+    box-shadow: inset 110px 0 0 0 #73867a;
+    color: white;
 }
